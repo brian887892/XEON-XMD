@@ -18,9 +18,9 @@ const alive = async (m, Matrix) => {
 *───〔 🤖 BOT STATUS 🤖 〕───*
 *✅ Status:* *Online & Active*
 *⏱️ Uptime:* *${days}d* ${hours}h ${minutes}m ${seconds}s
-*🛠️ Engine:* *Xtreme-Tech_X*
+*🛠️ Engine:* *Xeon-Xtech*
 
-  *🟢xtreme-tech_x uptime🟢*
+  *🟢Xeon-Xtech uptime🟢*
 *──────────────────────────*
     `.trim();
 
