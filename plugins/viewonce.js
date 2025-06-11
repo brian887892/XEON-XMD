@@ -42,7 +42,7 @@ const OwnerCmd = async (m, Matrix) => {
     if (!buffer) return m.reply(' *Failed to retrieve media!*');
 
     let mimetype = msg.audioMessage?.mimetype || 'audio/ogg';
-    let caption = ` *ᴅᴏᴡɴʟᴏᴀᴅᴇᴅ ᴠɪᴇᴡ ᴏɴᴄᴇ ʙʏ ᴘᴏᴘᴋɪᴅ xᴛᴇᴄʜ*`;
+    let caption = ` *ᴅᴏᴡɴʟᴏᴀᴅᴇᴅ ᴠɪᴇᴡ ᴏɴᴄᴇ ʙʏ xᴇᴏɴ-xᴛᴇᴄʜ*`;
 
     let recipient;
     if (cmd === 'vv') {
@@ -70,5 +70,5 @@ const OwnerCmd = async (m, Matrix) => {
   }
 };
 
-// coded by lord joel
+// coded by Black-Tappy
 export default OwnerCmd;

@@ -1,7 +1,6 @@
 
 
 
-
 import config from '../../config.cjs';
 
 const autotypingCommand = async (m, Matrix) => {
