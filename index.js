@@ -119,7 +119,7 @@ Matrix.ev.on('connection.update', (update) => {
                 image: { url: "https://files.catbox.moe/og4tsk.jpg" }, 
                 caption: `> 𝐆ᴇᴛ 𝐑ɪɢʜᴛ 𝐖ɪᴛᴄʜ𝐀 🩷🎀 .
 ╭───❍「 *𝐂ᴏɴɴᴇᴄᴛᴇ𝐃* 」
-┃ 🎀 𝐗ᴇᴏɴ 𝐗ᴛᴇᴄʜ 𝐁ᴏᴛ; ${currentDate},
+┃ 🎀 𝐗ᴇᴏɴ 𝐗ᴛᴇᴄʜ 𝐁ᴏᴛ
 ╰───────────❍
 ╭───❍「 *𝐁ᴏᴛ 𝐑ᴇᴘᴏ* 」
 ┃ [**Here**](https://github.com/Black-Tappy/XEON-XMD) star repo!
