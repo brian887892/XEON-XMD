@@ -19,7 +19,7 @@
 
 --- 
 
-<a><img src='https://files.catbox.moe/78hoyu.jpg'/></a>
+<a><img src='https://files.catbox.moe/mbnjxn.jpg'/></a>
 
 ---
 
