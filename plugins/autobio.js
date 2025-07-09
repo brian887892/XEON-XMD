@@ -1,6 +1,5 @@
 import config from '../../config.cjs';
  import moment from 'moment-timezone';
- 
 
  // 🌈 Array of ✨ Colorful ✨ Life Quotes 🎨
  const lifeQuotes = [
