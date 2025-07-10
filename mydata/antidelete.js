@@ -39,7 +39,7 @@ const sendDeletedMessageToChat = async (sock, message) => {
       text: `❌ **Message Deleted**\nFrom: ${deletedMessage.from}\nMessage: ${deletedMessage.content}\nTime: ${new Date(deletedMessage.timestamp * 1000).toLocaleString()}`,
     });
   } else {
-    console.error('Error: Message content not found.');
+    console.error('❌ Error: Message content not found.');
   }
 };
 
