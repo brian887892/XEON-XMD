@@ -1,26 +1,27 @@
 {
-  "name": " xᴇᴏɴ xᴍᴅ ʙᴏᴛ",
-  "version": "10.8.1",
-  "description": "Black Tappy tech inc",
+  "name": "XEON-XTECH",
+  "version": "2.0.0",
+  "description": "Better than before",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name  xᴇᴏɴ xᴍᴅ ʙᴏᴛ",
-    "stop": "pm2 stop  xᴇᴏɴ xᴍᴅ ʙᴏᴛ",
-    "restart": "pm2 restart  xᴇᴏɴ xᴍᴅ ʙᴏᴛ"
+    "start": "pm2 start index.js --deep-monitoring --attach --name XEON-XTECH",
+    "stop": "pm2 stop XEON-XTECH",
+    "restart": "pm2 restart XEON-XTECH"
   },
-  "keywords": ["black-tappy", "whatsapp-bot", "whatsapp md bot"],
-  "author": " ʙʟᴀᴄᴋᴛᴀᴘᴘʏ",
+  "keywords": ["Black-Tappy", "whatsapp-bot", "whatsapp md bot"],
+  "author": "Black-Tappy",
   "license": "ISC",
   "dependencies": {
-    "@whiskeysockets/baileys": "npm:@fizzxydev/baileys-pro@8.5.12",
+    "@whiskeysockets/baileys": "npm:baileys-pro@0.0.5",
+    "@rodrigogs/baileys-store" : "^1.0.1",
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "@google/generative-ai": "^0.9.0",
     "@hapi/boom": "^10.0.1",
     "@xaviabot/fb-downloader": "^1.0.14",
     "acrcloud": "^1.4.0",
-    "api-dylux": "^1.8.3",
     "adm-zip": "^0.5.16",
+    "api-dylux": "^1.8.3",
     "aptoide-scraper": "^1.0.1",
     "awesome-phonenumber": "^6.8.0",
     "axios": "^1.6.8",
@@ -65,4 +66,4 @@
     "wasitech": "npm:@distube/ytdl-core",
     "yt-search": "^2.11.0"
   }
-  }
+}
