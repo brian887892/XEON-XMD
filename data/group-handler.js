@@ -4,7 +4,7 @@ export default async function GroupParticipants(sock, { id, participants, action
    try {
       const metadata = await sock.groupMetadata(id)
 
-      // participants
+      // participants jid
       for (const jid of participants) {
          // get profile picture user
          let profile
