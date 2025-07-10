@@ -1,6 +1,6 @@
 import Jimp from 'jimp';
-import fs from 'fs/promises'; // Using promises for async/await compatibility
-import path from 'path'; // To handle file paths
+import fs from 'fs/promises'; 
+import path from 'path'; // Black-Tappy to pathe{modified}
 
 const __filename = new URL(import.meta.url).pathname;
 const __dirname = path.dirname(__filename);
@@ -12,14 +12,18 @@ const generateProfilePictureWithWatermark = async (buffer) => {
     const max = jimp.getHeight();
     const cropped = jimp.crop(0, 0, min, max);
 
+    // Generate a random number between 1 and 5
+    const randomNumber = Math.floor(Math.random() * 5) + 1;
+    // Construct the watermark filename
+    const watermarkFileName = `blacktappy${randomNumber}.jpg`;
     // Ensure the watermark path is correct
-    const watermarkPath = path.resolve(__dirname, 'balochx.png');
+    const watermarkPath = path.resolve(__dirname, watermarkFileName);
 
     // Check if watermark file exists
     try {
       await fs.access(watermarkPath);
     } catch (error) {
-      throw new Error(`Watermark file not found at ${watermarkPath}`);
+      throw new Error(`Watermark file not found at ${watermarkPath}. Original error: ${error.message}`);
     }
 
     const watermarkBuffer = await fs.readFile(watermarkPath);
@@ -40,7 +44,7 @@ const generateProfilePictureWithWatermark = async (buffer) => {
 
     return {
       img: scaledImg,
-      preview: scaledImg, // Assuming the preview is the same as the profile picture
+      preview: scaledImg, 
     };
   } catch (error) {
     console.error('Error generating profile picture with watermark:', error);
