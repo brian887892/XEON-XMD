@@ -9,7 +9,7 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// Function to get group admins
+//Function to get group admins available 
 export const getGroupAdmins = (participants) => {
     let admins = [];
     for (let i of participants) {
