@@ -6,7 +6,7 @@ export const getWaifuImage = async () => {
     const response = await axios.get('https://api.waifu.pics/sfw/waifu');
     return response.data.url; // Return the URL of the image
   } catch (error) {
-    console.error('Error fetching waifu image:', error);
+    console.error('❌ Error fetching waifu image:', error);
     return null;
   }
 };
