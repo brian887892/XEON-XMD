@@ -32,8 +32,7 @@
 [![WhatsApp Channel](https://img.shields.io/badge/Join-WhatsApp%20Channel-FF00F8?style=big-square&logo=whatsapp)](https://whatsapp.com/channel/0029VasHgfG4tRrwjAUyTs10)
 </div>
 
- <p align="center"><img src="https://profile-counter.glitch.me/{XEON-XMD}/count.svg" alt="Black-Tappy :: Visitor's Count" old_src="https://profile-counter.glitch.me/{Black-Tappy}/count.svg" /></p>
-
+  <p align="center"><img src="https://profile-counter.glitch.me/{XEON-XMD}/count.svg" alt="Black-Tappy :: Visitor's Count" old_src="https://profile-counter.glitch.me/{Black-Tappy}/count.svg" /></p>
 
 <p align="center">
 <a href="https://github.com/Black-Tappy/XEON-XMD"><img title="PUBLIC-BOT" src="https://img.shields.io/static/v1?label=Language&message=English&style=square&color=darkpink"></a> &nbsp;
