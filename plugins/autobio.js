@@ -36,7 +36,7 @@ import config from '../../config.cjs';
          const kenyaTime = moment().tz('Africa/Nairobi').format('HH:mm:ss');
          const randomIndex = Math.floor(Math.random() * lifeQuotes.length);
          const randomQuote = lifeQuotes[randomIndex];
-         const newBio = `✨📸 𝐗ᴇᴏɴ-𝐗ᴛᴇᴄʜ 𝐈𝐬 ✨ 𝐀ᴄᴛɪᴠᴇ ✨ 🟢 | 🕰️ Kenya Time: ${kenyaTime} 🇰🇪 | 💬 "${randomQuote}" 📜`;
+         const newBio = `✨📸 Xeon-Xtech Is ✨ Active ✨ 🟢 | 🕰️ Kenya Time: ${kenyaTime} 🇰🇪 | 💬 "${randomQuote}" 📜`;
          await sock.updateProfileStatus(newBio);
          console.log('✅✨ Bio Updated! ✨✅:', newBio);
        } catch (error) {
